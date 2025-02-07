@@ -1,2 +1,2 @@
 # Wie man es benutzt
-Bitte erstellen sie einen benutzer names admin@example.com um Zugriff zu haben, Neuigkeiten zu erstellen.
+Bitte erstellen sie einen Benutzer names admin@example.com um Zugriff zu haben, Neuigkeiten zu erstellen.
