@@ -1,2 +1,2 @@
-# How to use
-Please create a user called admin@example.com to have access to create news.
+# Wie man es benutzt
+Bitte erstellen sie einen benutzer names admin@example.com um Zugriff zu haben, Neuigkeiten zu erstellen.
