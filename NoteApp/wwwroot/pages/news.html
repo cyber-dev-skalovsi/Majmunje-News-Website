@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News List Layout</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/animate.css">
+    <script src="../scripts/sanitizer.js"></script>
+    <script src="../scripts/news-api.js"></script>
+    <script src="../scripts/views/create.js" defer></script>
+    <script src="../scripts/main.js" defer></script>
+    <script src="../scripts/secondmain.js" defer></script>
+</head>
+<body>
+    <div class="tabbar">
+        <h1 class="Logo"> <a href="..">Majmunje News</a></h1>
+        <div class="auth-options" id="auth-option">
+        </div>
+    </div>
+    <div class="news-list" id="listidobject">
+        <div class="news-item animated animatedFadeInUp fadeInUp">
+            <img src="https://via.placeholder.com/150" alt="News 1">
+            <p id="picture-url" contenteditable="true"></p>
+            <div class="news-content">
+                <h3 id="edit-titel" contenteditable="true">Majmunje us dem Kafig in Rapperswil!</h3>
+                <p id="edit-description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet...</p>
+            </div>
+        </div>
+    </div>
+    <div class="submit-moneymaker">
+        <p>Create</p>
+    </div>
+</body>
+</html>

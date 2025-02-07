@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo > a {
+    text-decoration: none;
+    color: white;
+}
+#picture-url {
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 10px;
+    border-radius: 20px;
+}
+.tabbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+    .tabbar > .Logo {
+        color: white
+    }
+
+.tab {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+    .tab:hover {
+        background-color: #555;
+        border-radius: 5px;
+    }
+
+.auth-options {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+.auth-tab {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .auth-tab:hover {
+        background-color: white;
+        color: #333;
+    }
+
+.auth-tab-create {
+    color: rgb(86, 236, 12);
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgb(86, 236, 12);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .auth-tab-create:hover {
+        background-color: rgb(236, 249, 229);
+        color: #333;
+    }
+.auth-tab-logout {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgb(255,0,0);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .auth-tab-logout:hover {
+        cursor: pointer;
+        background-color: rgba(255, 0, 0, 0.8);
+        color: #333;
+    }
+
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.news-item {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.2s;
+    height: 50vh; /* Halb so hoch wie der Bildschirm */
+}
+
+    .news-item:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.02);
+    }
+
+    .news-item img {
+        width: 40%; /* Bild nimmt 40% des Containers ein */
+        height: 100%; /* Passt die Höhe an die News-Box an */
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+.news-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+    .news-content h3 {
+        margin: 0;
+        font-size: 4em;
+    }
+
+    .news-content p {
+        color: #414141;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+.moneymaker {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+    .moneymaker > p {
+        color: black;
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+        .moneymaker > p:hover {
+            transition: 150ms;
+            cursor: pointer;
+            color: rgb(104, 104, 104);
+            font-size: 1.25rem;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid rgb(104, 104, 104);
+            border-radius: 20px;
+        }
+
+        .moneymaker > p:not(:hover) {
+            transition: 150ms;
+            color: rgb(0, 0, 0);
+            font-size: 1.25rem;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+.submit-moneymaker {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+    .submit-moneymaker > p {
+        color: rgb(17, 255, 0);
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 1px solid rgb(17, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 20px;
+    }
+
+        .submit-moneymaker > p:hover {
+            transition: 150ms;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            font-size: 1.25rem;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: rgba(17, 255, 0, 0.763);
+            border: 1px solid rgb(17, 255, 0);
+            border-radius: 20px;
+        }
+
+        .submit-moneymaker > p:not(:hover) {
+            transition: 150ms;
+            color: rgb(17, 255, 0);
+            font-size: 1.25rem;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: rgba(255, 255, 255, 0);
+            border: 1px solid rgb(17, 255, 0);
+            border-radius: 7.5px;
+        }
+
+.blue {
+    color: rgb(174, 121, 41);
+}
+.deleteButton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid rgb(255,0,0);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    height: 13%;
+    width: 13%;
+    font-size: 23px;
+    margin-top: 23%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+    .deleteButton:hover {
+        cursor:pointer;
+        background-color: rgba(255, 0, 0, 0.8);
+        color: #fff;
+    }
+    .deleteButton:not(:hover) {
+        cursor: none;
+        background-color: rgba(255, 0, 0, 0);
+        color: #333;
+    }

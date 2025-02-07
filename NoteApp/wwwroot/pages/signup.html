@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pique - The best paint app</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <script src="../scripts/sanitizer.js"></script>
+    <script src="../scripts/news-api.js"></script>
+    <script src="../scripts/users-api.js"></script>
+    <script src="../scripts/views/register.js" defer></script>
+    <script src="../scripts/secondmain.js" defer></script>
+</head>
+<body>
+    <div class="topleftbutton">
+        <p>Go Back -></p>
+    </div>
+    <main class="container">
+        <form>
+            <h2 class="sign-in-header">Sign Up</h2>
+            <input type="email" class="label-email" id="register-email" placeholder="Email" required />
+            <input type="password" class="label-password" placeholder="Password" id="register-password" required />
+            <input type="password" class="label-password" placeholder="Confirm Password" id="register-password-confirm" required />
+            <div id="register-error"></div>
+            <button type="submit" class="sign-in-button">Sign In</button>
+        </form>
+        <aside>
+            <div>
+                <h2 class="sign-up-header">Have a account?</h2>
+                <p>The just log in!</p>
+                <button class="sign-up-button" onclick="self.location.href= 'login.html'">Sign In</button>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
